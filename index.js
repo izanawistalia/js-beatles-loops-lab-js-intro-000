@@ -16,15 +16,11 @@ function johnLennonFacts(facts){
   return sentence;
 }
 function iLoveTheBeatles(num){
-
 var sentence = new Array();
-var i=0;
-do{
 
+  do{
   sentence[i] = `"I love the Beatles!"`;
-  i++;
-
-} while(num<15 && i<num);
+  num++;
+} while(num<15);
 return sentence;
-
 }
